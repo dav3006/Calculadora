@@ -1,0 +1,60 @@
+body {
+    display: flex ;
+    justify-content: center;
+    align-self: center;
+}
+.container {
+display: flex;
+justify-content: center;
+align-self: center;
+border: 1px solid;
+border-color: black;
+height: 430px;
+margin-top: 50px;
+background-color: rgb(171, 19, 19);
+border-radius: 20px;
+}
+.containerVisor {
+display: flex;
+align-self: center;
+border: 1px solid;
+border-color: black;
+background-color: blue;
+border-radius: 0px;
+color: cornsilk;
+height: 35px;
+}
+.containerNumbers{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    border: 1px solid;
+    border-color: black;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+    color: cornsilk;
+    cursor: pointer;
+}
+.buttonOperador{
+background-color: grey;
+margin-right: 0px;
+
+}
+
+.buttonResult{
+background-color: blue;
+}
+.buttonDelet{
+    background-color: rgb(255, 11, 56) ;
+    
+}
+.containerCorrigir{
+    display: flex;
+    justify-content: flex-end; 
+}
